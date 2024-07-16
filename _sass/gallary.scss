@@ -1,0 +1,104 @@
+@import "base";
+
+.gallary {
+  max-width: 955px;
+  margin: 7em auto;
+  font-size: 16px;
+}
+.head {
+  margin-top: 1.8em;
+  margin-bottom: 1em;
+
+  &.head-1 {
+    @include headline(1.6em, $heading1)
+  }
+  &.head-2 {
+    @include headline(1.4em, $heading2)
+  }
+  &.head-3 {
+    @include headline(1.2em, $heading3)
+  }
+  &.head-4 {
+    @include headline(1em, $heading4)
+  }
+  &.head-5 {
+    @include headline(0.8em, $heading5)
+  }
+
+  strong {
+    font-weight: 400;
+  }
+}
+.photos {
+  display: grid;
+  grid-template: 1fr / repeat(var(--column, 3), 1fr);
+  column-gap: var(--column-gap, 20px);
+  row-gap: var(--row-gap, 20px);
+}
+.photo-figure {
+  padding: var(--frame-padding);
+  box-sizing: border-box;
+  background-color: $surface;
+  position: relative;
+}
+.photo-a {
+  display: block;
+  width: 100%;
+  position: relative;
+  padding-bottom: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.photo-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  object-fit: contain;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+// redefine the style of photoswipe
+button.pswp__button.pswp__button--share {
+  display: none;
+}
+
+@media screen and (max-width: $layout-medium) {
+  .gallary {
+    margin: 5em 40px;
+  }
+}
+
+@media screen and (max-width: $layout-small) {
+  .gallary {
+    margin: 4em 6px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  h1, h2 {
+    margin-left: 12px;
+  }
+  .photos {
+    grid-template: 1fr / repeat(var(--column-small, 2), 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .pswp__counter {
+    font-size: larger;
+  }
+
+  button.pswp__button.pswp__button--fs, 
+  button.pswp__button.pswp__button--arrow-left, 
+  button.pswp__button.pswp__button--arrow-right {
+    display: none;
+  }
+}

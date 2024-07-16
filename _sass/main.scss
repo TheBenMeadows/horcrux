@@ -1,0 +1,53 @@
+@import "base";
+
+html {
+  background-color: $background;
+  overflow-x: hidden;
+  font-family: 'Lato', 'Helvetica', 'Verdana', sans-serif;
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 1.8em;
+  color: $title;
+  margin-bottom: 2em;
+}
+h2 {
+  font-weight: 400;
+  color: $heading5;
+
+  strong {
+    color: $subtitle;
+  }
+}
+h1, h2, footer {
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+figure {
+  margin: 0;
+}
+footer {
+  bottom: 0;
+  color: $text;
+  text-align: center;
+  width: 100%;
+  font-size: 0.8em;
+  margin-bottom: 2em;
+}
+.footer-item {
+  display: block;
+  margin-bottom: .8em;
+}
+a {
+  text-decoration: none;
+  color: $text;
+  &:hover {
+    color: $link;
+  }
+}
+
+@import "pswp-default-skin";
+@import "photoswipe";
+@import "gallary";
