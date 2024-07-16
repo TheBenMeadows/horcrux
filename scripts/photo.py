@@ -48,11 +48,11 @@ class Photo():
 
         # return basic info
         return {
-          "type": 'photo',
-          'width': self.size[0],
-          'height': self.size[1],
-          'path': './' + relative_path,
-          'min_path': './' + str(self.min_path.relative_to(conf.DIR_PATH))
+            "type": 'photo',
+            'width': self.size[0],
+            'height': self.size[1],
+            'path': './' + relative_path,
+            'min_path': './' + str(self.min_path.relative_to(conf.DIR_PATH))
         }
 
     def save_image(self, img, path):
@@ -69,6 +69,9 @@ class Photo():
         font_path = '/Users/bemeadows/Documents/GitHub/horcrux/assets/font/Eczar-Medium.ttf'
         if conf.fontfamily:
             font_path = os.path.join('/Users/bemeadows/Documents/GitHub/horcrux/assets/font/', 'Eczar-Medium.ttf' + conf.fontfamily)
+
+        # Debugging: Print the font path
+        print(f"Trying to load font from: {font_path}")
 
         # Load the font
         try:
