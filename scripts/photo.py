@@ -1,12 +1,18 @@
 import conf
 import os
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, UnidentifiedImageError
 
 class Photo():
     def __init__(self, path):
         self.path = path
         self.min_path = ''
-        self.pil_image = Image.open(self.path).convert('RGBA')
+        try:
+            self.pil_image = Image.open(self.path).convert('RGBA')
+        except (OSError, UnidentifiedImageError) as e:
+            print(f"Error opening image {self.path}: {e}")
+            self.pil_image = None
+            return
+
         self.width, self.height = self.pil_image.size
         self.size = self.pil_image.size
 
@@ -22,6 +28,9 @@ class Photo():
         return self.min_path.exists()
 
     def format(self):
+        if self.pil_image is None:
+            return None
+
         if self.is_min:
             return None
 
@@ -32,7 +41,7 @@ class Photo():
 
             # resize
             ratio = float(conf.MIN_WIDTH) / self.size[0]
-            new_image_size = tuple([int(x*ratio) for x in self.size])
+            new_image_size = tuple([int(x * ratio) for x in self.size])
 
             if conf.SIGN_THUMBNAIL:
                 if not conf.SIGN_ORIGINAL:
@@ -65,29 +74,34 @@ class Photo():
         width, height = img.size
         transparent_image = Image.new('RGBA', img.size, (255, 255, 255, 0))
 
-        # Correct path to your font file
-        font_path = '/Users/bemeadows/Documents/GitHub/horcrux/assets/font/Eczar-Medium.ttf'
+        base_font_path = '/Users/bemeadows/Documents/GitHub/horcrux/assets/font/Eczar-Medium.ttf'
         if conf.fontfamily:
-            font_path = os.path.join('/Users/bemeadows/Documents/GitHub/horcrux/assets/font/', 'Eczar-Medium.ttf' + conf.fontfamily)
+            font_path = os.path.join('/Users/bemeadows/Documents/GitHub/horcrux/assets/font/', f'{conf.fontfamily}')
+        else:
+            font_path = base_font_path
 
-        # Debugging: Print the font path
         print(f"Trying to load font from: {font_path}")
 
-        # Load the font
         try:
             font = ImageFont.truetype(font_path, fontsize)
         except OSError as e:
             print(f"Error loading font: {e}")
-            return img  # Return the original image if the font can't be loaded
+            try:
+                font = ImageFont.load_default()
+            except:
+                print("Failed to load default font. Returning original image.")
+                return img
 
         draw = ImageDraw.Draw(transparent_image)
 
-        t_size = font.getsize(conf.copyright)
-        t_w = t_size[0]
-        t_h = t_size[1]
+        # Use getbbox instead of getsize
+        bbox = font.getbbox(conf.copyright)
+        t_w = bbox[2] - bbox[0]  # right - left
+        t_h = bbox[3] - bbox[1]  # bottom - top
 
         x = (width - t_w) / 2
         y = height - 2 * t_h
+
         draw.text((x, y), conf.copyright, font=font, fill=(255, 255, 255, 125))
         transparent_image = transparent_image.rotate(conf.watermark_rotate)
         signed_image = Image.alpha_composite(img, transparent_image)
