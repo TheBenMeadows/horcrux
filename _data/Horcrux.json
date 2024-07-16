@@ -17,18 +17,18 @@
         ],
         "items": {
           "order": [
-            "#DailyMuse"
+            "Daily Muse"
           ],
           "dict": {
-            "#DailyMuse": {
-              "name": "#DailyMuse",
+            "Daily Muse": {
+              "name": "Daily Muse",
               "type": "album",
               "root": 2,
               "parents": [
                 "2024",
-                "#DailyMuse"
+                "Daily Muse"
               ],
-              "path": "./_data/albums/2024-#DailyMuse.json",
+              "path": "./_data/albums/2024-Daily Muse.json",
               "no_sub_album": true
             }
           }
