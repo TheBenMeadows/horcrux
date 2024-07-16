@@ -66,9 +66,9 @@ class Photo():
         transparent_image = Image.new('RGBA', img.size, (255, 255, 255, 0))
 
         # Correct path to your font file
-        font_path = './horcrux/assets/font/'
+        font_path = '/Users/bemeadows/Documents/GitHub/horcrux/assets/font/Eczar-Medium.ttf'
         if conf.fontfamily:
-            font_path = os.path.join('./assets/font/', 'Eczar-Medium.ttf' + conf.fontfamily)
+            font_path = os.path.join('/Users/bemeadows/Documents/GitHub/horcrux/assets/font/', 'Eczar-Medium.ttf' + conf.fontfamily)
 
         # Load the font
         try:
