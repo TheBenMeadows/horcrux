@@ -5,31 +5,32 @@
   "parents": [],
   "items": {
     "order": [
+      "2024",
       "2019",
       "2018"
     ],
     "dict": {
-      "2018": {
-        "name": "2018",
+      "2024": {
+        "name": "2024",
         "type": "album",
         "root": 1,
         "parents": [
-          "2018"
+          "2024"
         ],
         "items": {
           "order": [
-            "Hokkaido December"
+            "Daily Muse"
           ],
           "dict": {
-            "Hokkaido December": {
-              "name": "Hokkaido December",
+            "Daily Muse": {
+              "name": "Daily Muse",
               "type": "album",
               "root": 2,
               "parents": [
-                "2018",
-                "Hokkaido December"
+                "2024",
+                "Daily Muse"
               ],
-              "path": "./_data/albums/2018-Hokkaido December.json",
+              "path": "./_data/albums/2024-Daily Muse.json",
               "no_sub_album": true
             }
           }
@@ -74,6 +75,32 @@
                   }
                 }
               }
+            }
+          }
+        }
+      },
+      "2018": {
+        "name": "2018",
+        "type": "album",
+        "root": 1,
+        "parents": [
+          "2018"
+        ],
+        "items": {
+          "order": [
+            "Hokkaido December"
+          ],
+          "dict": {
+            "Hokkaido December": {
+              "name": "Hokkaido December",
+              "type": "album",
+              "root": 2,
+              "parents": [
+                "2018",
+                "Hokkaido December"
+              ],
+              "path": "./_data/albums/2018-Hokkaido December.json",
+              "no_sub_album": true
             }
           }
         }

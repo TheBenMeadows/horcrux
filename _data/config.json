@@ -1,5 +1,22 @@
 [
   {
+    "name": "Daily Muse",
+    "type": "photos",
+    "parents": [
+      "2024",
+      "Daily Muse"
+    ],
+    "list": [
+      {
+        "type": "photo",
+        "width": 5887,
+        "height": 3998,
+        "path": "./photos/2024/Daily Muse/183.jpg",
+        "min_path": "./photos/2024/Daily Muse/183.min.jpg"
+      }
+    ]
+  },
+  {
     "name": "Street",
     "type": "photos",
     "parents": [
