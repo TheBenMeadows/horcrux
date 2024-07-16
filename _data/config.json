@@ -1,123 +1,46 @@
 [
   {
-    "name": "Daily Muse",
+    "name": "#DailyMuse",
     "type": "photos",
     "parents": [
       "2024",
-      "Daily Muse"
+      "#DailyMuse"
     ],
     "list": [
       {
         "type": "photo",
         "width": 5887,
         "height": 3998,
-        "path": "./photos/2024/Daily Muse/183.jpg",
-        "min_path": "./photos/2024/Daily Muse/183.min.jpg"
-      }
-    ]
-  },
-  {
-    "name": "Street",
-    "type": "photos",
-    "parents": [
-      "2019",
-      "August",
-      "Street"
-    ],
-    "list": [
-      {
-        "type": "photo",
-        "width": 850,
-        "height": 1275,
-        "path": "./photos/2019/August/Street/12.jpg",
-        "min_path": "./photos/2019/August/Street/12.min.jpg"
+        "path": "./photos/2024/#DailyMuse/183 IMG_1647 \"The Difference\" - 7.15.24.jpg",
+        "min_path": "./photos/2024/#DailyMuse/183 IMG_1647 \"The Difference\" - 7.15.24.min.jpg"
       },
       {
         "type": "photo",
-        "width": 850,
-        "height": 1275,
-        "path": "./photos/2019/August/Street/10.jpg",
-        "min_path": "./photos/2019/August/Street/10.min.jpg"
+        "width": 5887,
+        "height": 3998,
+        "path": "./photos/2024/#DailyMuse/183 IMG_1647 \"The Difference (ACK Alt)\" - 7.15.24.jpg",
+        "min_path": "./photos/2024/#DailyMuse/183 IMG_1647 \"The Difference (ACK Alt)\" - 7.15.24.min.jpg"
       },
       {
         "type": "photo",
-        "width": 3393,
-        "height": 5089,
-        "path": "./photos/2019/August/Street/08.jpg",
-        "min_path": "./photos/2019/August/Street/08.min.jpg"
+        "width": 3072,
+        "height": 4096,
+        "path": "./photos/2024/#DailyMuse/182 IMG_8832 \"Real AI\" - 7.14.24.jpg",
+        "min_path": "./photos/2024/#DailyMuse/182 IMG_8832 \"Real AI\" - 7.14.24.min.jpg"
       },
       {
         "type": "photo",
-        "width": 850,
-        "height": 1276,
-        "path": "./photos/2019/August/Street/07.jpg",
-        "min_path": "./photos/2019/August/Street/07.min.jpg"
+        "width": 8064,
+        "height": 6048,
+        "path": "./photos/2024/#DailyMuse/181 IMG_9782-U2 -> C2 75% \"Last Light\" (Color) - 7.13.24.jpg",
+        "min_path": "./photos/2024/#DailyMuse/181 IMG_9782-U2 -> C2 75% \"Last Light\" (Color) - 7.13.24.min.jpg"
       },
       {
         "type": "photo",
-        "width": 850,
-        "height": 1276,
-        "path": "./photos/2019/August/Street/05.jpg",
-        "min_path": "./photos/2019/August/Street/05.min.jpg"
-      },
-      {
-        "type": "photo",
-        "width": 850,
-        "height": 1275,
-        "path": "./photos/2019/August/Street/04.jpg",
-        "min_path": "./photos/2019/August/Street/04.min.jpg"
-      }
-    ]
-  },
-  {
-    "name": "Hokkaido December",
-    "type": "photos",
-    "parents": [
-      "2018",
-      "Hokkaido December"
-    ],
-    "list": [
-      {
-        "type": "photo",
-        "width": 1701,
-        "height": 1133,
-        "path": "./photos/2018/Hokkaido December/13.jpg",
-        "min_path": "./photos/2018/Hokkaido December/13.min.jpg"
-      },
-      {
-        "type": "photo",
-        "width": 1701,
-        "height": 983,
-        "path": "./photos/2018/Hokkaido December/08.jpg",
-        "min_path": "./photos/2018/Hokkaido December/08.min.jpg"
-      },
-      {
-        "type": "photo",
-        "width": 4344,
-        "height": 2897,
-        "path": "./photos/2018/Hokkaido December/07.jpg",
-        "min_path": "./photos/2018/Hokkaido December/07.min.jpg"
-      },
-      {
-        "type": "photo",
-        "width": 1701,
-        "height": 1134,
-        "path": "./photos/2018/Hokkaido December/05.jpg",
-        "min_path": "./photos/2018/Hokkaido December/05.min.jpg"
-      },
-      {
-        "type": "photo",
-        "width": 4806,
-        "height": 3201,
-        "path": "./photos/2018/Hokkaido December/04.jpg",
-        "min_path": "./photos/2018/Hokkaido December/04.min.jpg"
-      },
-      {
-        "type": "photo",
-        "width": 1701,
-        "height": 1122,
-        "path": "./photos/2018/Hokkaido December/01.jpg",
-        "min_path": "./photos/2018/Hokkaido December/01.min.jpg"
+        "width": 8064,
+        "height": 6048,
+        "path": "./photos/2024/#DailyMuse/181 IMG_9782-B4 \"Last Light\" (BNW) - 7.13.24.jpg",
+        "min_path": "./photos/2024/#DailyMuse/181 IMG_9782-B4 \"Last Light\" (BNW) - 7.13.24.min.jpg"
       }
     ]
   }

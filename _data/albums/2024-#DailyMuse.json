@@ -1,0 +1,46 @@
+{
+  "order": [
+    "183 IMG_1647 \"The Difference\" - 7.15.24.jpg",
+    "183 IMG_1647 \"The Difference (ACK Alt)\" - 7.15.24.jpg",
+    "182 IMG_8832 \"Real AI\" - 7.14.24.jpg",
+    "181 IMG_9782-U2 -> C2 75% \"Last Light\" (Color) - 7.13.24.jpg",
+    "181 IMG_9782-B4 \"Last Light\" (BNW) - 7.13.24.jpg"
+  ],
+  "dict": {
+    "183 IMG_1647 \"The Difference\" - 7.15.24.jpg": {
+      "type": "photo",
+      "width": 5887,
+      "height": 3998,
+      "path": "./photos/2024/#DailyMuse/183 IMG_1647 \"The Difference\" - 7.15.24.jpg",
+      "min_path": "./photos/2024/#DailyMuse/183 IMG_1647 \"The Difference\" - 7.15.24.min.jpg"
+    },
+    "183 IMG_1647 \"The Difference (ACK Alt)\" - 7.15.24.jpg": {
+      "type": "photo",
+      "width": 5887,
+      "height": 3998,
+      "path": "./photos/2024/#DailyMuse/183 IMG_1647 \"The Difference (ACK Alt)\" - 7.15.24.jpg",
+      "min_path": "./photos/2024/#DailyMuse/183 IMG_1647 \"The Difference (ACK Alt)\" - 7.15.24.min.jpg"
+    },
+    "182 IMG_8832 \"Real AI\" - 7.14.24.jpg": {
+      "type": "photo",
+      "width": 3072,
+      "height": 4096,
+      "path": "./photos/2024/#DailyMuse/182 IMG_8832 \"Real AI\" - 7.14.24.jpg",
+      "min_path": "./photos/2024/#DailyMuse/182 IMG_8832 \"Real AI\" - 7.14.24.min.jpg"
+    },
+    "181 IMG_9782-U2 -> C2 75% \"Last Light\" (Color) - 7.13.24.jpg": {
+      "type": "photo",
+      "width": 8064,
+      "height": 6048,
+      "path": "./photos/2024/#DailyMuse/181 IMG_9782-U2 -> C2 75% \"Last Light\" (Color) - 7.13.24.jpg",
+      "min_path": "./photos/2024/#DailyMuse/181 IMG_9782-U2 -> C2 75% \"Last Light\" (Color) - 7.13.24.min.jpg"
+    },
+    "181 IMG_9782-B4 \"Last Light\" (BNW) - 7.13.24.jpg": {
+      "type": "photo",
+      "width": 8064,
+      "height": 6048,
+      "path": "./photos/2024/#DailyMuse/181 IMG_9782-B4 \"Last Light\" (BNW) - 7.13.24.jpg",
+      "min_path": "./photos/2024/#DailyMuse/181 IMG_9782-B4 \"Last Light\" (BNW) - 7.13.24.min.jpg"
+    }
+  }
+}
