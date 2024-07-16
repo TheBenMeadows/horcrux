@@ -2,6 +2,8 @@ import conf
 import os
 from PIL import Image, ImageDraw, ImageFont, UnidentifiedImageError
 
+Image.MAX_IMAGE_PIXELS = 933120000
+
 class Photo():
     def __init__(self, path):
         self.path = path
