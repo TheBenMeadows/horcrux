@@ -2,12 +2,10 @@
   "order": [
     "9.jpg",
     "8.png",
-    "8.min.png",
     "7.jpg",
     "6.jpg",
     "5.jpg",
     "4.jpg",
-    "37.min.gif",
     "37.gif",
     "32.jpg",
     "31.jpg",
@@ -18,14 +16,12 @@
     "27.jpg",
     "26.jpg",
     "25.png",
-    "25.min.png",
     "24.jpg",
     "23.jpg",
     "22.jpg",
     "21.jpg",
     "20.jpg",
     "2.png",
-    "2.min.png",
     "19.jpg",
     "18.jpg",
     "17.jpg",
@@ -52,13 +48,6 @@
       "height": 1785,
       "path": "./photos/2024/Daily Muse/8.png",
       "min_path": "./photos/2024/Daily Muse/8.min.png"
-    },
-    "8.min.png": {
-      "type": "photo",
-      "width": 600,
-      "height": 912,
-      "path": "./photos/2024/Daily Muse/8.min.png",
-      "min_path": "./photos/2024/Daily Muse/8.min.min.png"
     },
     "7.jpg": {
       "type": "photo",
@@ -87,13 +76,6 @@
       "height": 3024,
       "path": "./photos/2024/Daily Muse/4.jpg",
       "min_path": "./photos/2024/Daily Muse/4.min.jpg"
-    },
-    "37.min.gif": {
-      "type": "photo",
-      "width": 600,
-      "height": 600,
-      "path": "./photos/2024/Daily Muse/37.min.gif",
-      "min_path": "./photos/2024/Daily Muse/37.min.min.gif"
     },
     "37.gif": {
       "type": "photo",
@@ -165,13 +147,6 @@
       "path": "./photos/2024/Daily Muse/25.png",
       "min_path": "./photos/2024/Daily Muse/25.min.png"
     },
-    "25.min.png": {
-      "type": "photo",
-      "width": 598,
-      "height": 342,
-      "path": "./photos/2024/Daily Muse/25.min.png",
-      "min_path": "./photos/2024/Daily Muse/25.min.min.png"
-    },
     "24.jpg": {
       "type": "photo",
       "width": 8064,
@@ -213,13 +188,6 @@
       "height": 682,
       "path": "./photos/2024/Daily Muse/2.png",
       "min_path": "./photos/2024/Daily Muse/2.min.png"
-    },
-    "2.min.png": {
-      "type": "photo",
-      "width": 512,
-      "height": 682,
-      "path": "./photos/2024/Daily Muse/2.min.png",
-      "min_path": "./photos/2024/Daily Muse/2.min.min.png"
     },
     "19.jpg": {
       "type": "photo",

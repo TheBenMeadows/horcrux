@@ -23,13 +23,6 @@
       },
       {
         "type": "photo",
-        "width": 600,
-        "height": 912,
-        "path": "./photos/2024/Daily Muse/8.min.png",
-        "min_path": "./photos/2024/Daily Muse/8.min.min.png"
-      },
-      {
-        "type": "photo",
         "width": 6048,
         "height": 8064,
         "path": "./photos/2024/Daily Muse/7.jpg",
@@ -55,13 +48,6 @@
         "height": 3024,
         "path": "./photos/2024/Daily Muse/4.jpg",
         "min_path": "./photos/2024/Daily Muse/4.min.jpg"
-      },
-      {
-        "type": "photo",
-        "width": 600,
-        "height": 600,
-        "path": "./photos/2024/Daily Muse/37.min.gif",
-        "min_path": "./photos/2024/Daily Muse/37.min.min.gif"
       },
       {
         "type": "photo",
@@ -135,13 +121,6 @@
       },
       {
         "type": "photo",
-        "width": 598,
-        "height": 342,
-        "path": "./photos/2024/Daily Muse/25.min.png",
-        "min_path": "./photos/2024/Daily Muse/25.min.min.png"
-      },
-      {
-        "type": "photo",
         "width": 8064,
         "height": 6048,
         "path": "./photos/2024/Daily Muse/24.jpg",
@@ -181,13 +160,6 @@
         "height": 682,
         "path": "./photos/2024/Daily Muse/2.png",
         "min_path": "./photos/2024/Daily Muse/2.min.png"
-      },
-      {
-        "type": "photo",
-        "width": 512,
-        "height": 682,
-        "path": "./photos/2024/Daily Muse/2.min.png",
-        "min_path": "./photos/2024/Daily Muse/2.min.min.png"
       },
       {
         "type": "photo",
