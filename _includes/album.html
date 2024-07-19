@@ -10,7 +10,7 @@
               href="{{ photo.path }}"
               msrc="{{ photo.min_path }}"
               data-size="{{ photo.width }}x{{ photo.height }}">
-              <img class="photo-img" itemprop="thumbnail" src="{{ photo.min_path }}"/>
+              <img class="photo-img" itemprop="thumbnail" data-src="{{ photo.min_path }}" loading="lazy"/>
             </a>
           </figure>
         {%- endfor -%}
