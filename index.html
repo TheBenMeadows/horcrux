@@ -15,7 +15,7 @@
 
         --column-small: {{ site.small_screen.column }};
         --column-gap-small: {{ site.small_screen.column_gap }};
-        --row-gap-smal: {{ site.small_screen.row_gap }};
+        --row-gap-small: {{ site.small_screen.row_gap }};
       }
     </style>
     <link rel="stylesheet" href="{{ "/assets/style.css" | prepend: site.baseurl }}">
@@ -45,10 +45,7 @@
       });
     </script>
     <SCRIPT TYPE="text/javascript"> 
-      //Disable right click script 
-      //visit http://www.rainbow.arch.scriptmania.com/scripts/ 
       var message="Sorry, right-click has been disabled"; 
-      /////////////////////////////////// 
       function clickIE() {if (document.all) {(message);return false;}} 
       function clickNS(e) {if 
         (document.layers||(document.getElementById&&!document.all)) { 
@@ -67,5 +64,7 @@
     </div>
     {%- include footer.html -%}
     {%- include swipe.html -%}
+  </body>
+</html>
   </body>
 </html>
