@@ -1,15 +1,12 @@
 @import "base";
-
 .gallary {
   max-width: 955px;
   margin: 7em auto;
   font-size: 16px;
 }
-
 .head {
   margin-top: 1.8em;
   margin-bottom: 1em;
-
   &.head-1 {
     @include headline(1.6em, $heading1);
   }
@@ -25,36 +22,55 @@
   &.head-5 {
     @include headline(0.8em, $heading5);
   }
-
   strong {
     font-weight: 400;
   }
 }
-
 .photos {
-  display: flex; /* Let Masonry handle the layout */
+  display: flex;
   flex-wrap: wrap;
-  margin-left: -10px; /* Adjust gap between columns */
-  width: auto;
+  margin-left: -20px; /* Align items to the left */
 }
-
 .photo-figure {
-  width: calc(33.333% - 10px); /* Adjust width as needed */
-  margin-left: 10px;
-  margin-bottom: 10px;
+  width: calc(33.333% - 20px); /* Three columns layout */
+  margin-left: 0px;
+  margin-bottom: 0px;
   background-color: #000000; /* Or any background color */
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
+  padding-top: calc(33.333% - 20px); /* This creates a square aspect ratio */
 }
-
 .photo-figure img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  object-fit: cover; /* This will crop the image to fit the square */
 }
-
 .photo-figure.large {
-  width: calc(66.666% - 10px); /* Example for larger photo */
+  width: calc(66.666% - 20px); /* Span two columns */
+  padding-top: calc(66.666% - 20px); /* Maintain square aspect ratio for large images */
+}
+@media screen and (max-width: 1000px) {
+  .photo-figure {
+    width: calc(50% - 15px); /* Two columns layout */
+    padding-top: calc(50% - 15px);
+  }
+  .photo-figure.large {
+    width: calc(100% - 15px); /* Full width */
+    padding-top: calc(100% - 15px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .photo-figure {
+    width: calc(100% - 10px); /* Single column layout */
+    padding-top: calc(100% - 10px);
+  }
+  .photo-figure.large {
+    width: calc(100% - 10px); /* Full width */
+    padding-top: calc(100% - 10px);
+  }
 }
 
 // redefine the style of photoswipe
