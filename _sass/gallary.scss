@@ -32,39 +32,29 @@
 }
 
 .photos {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: 200px;
-  gap: 20px;
+  display: flex; /* Let Masonry handle the layout */
+  flex-wrap: wrap;
+  margin-left: -10px; /* Adjust gap between columns */
+  width: auto;
 }
 
 .photo-figure {
-  position: relative;
-  display: block;
-  padding: 0;
-  margin: 0;
+  width: calc(33.333% - 10px); /* Adjust width as needed */
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #000000; /* Or any background color */
   overflow: hidden;
+  position: relative;
+}
+
+.photo-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .photo-figure.large {
-  grid-row: span 2;
-  grid-column: span 2;
-}
-
-.photo-a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.photo-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: calc(66.666% - 10px); /* Example for larger photo */
 }
 
 // redefine the style of photoswipe

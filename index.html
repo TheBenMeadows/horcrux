@@ -19,19 +19,19 @@
       }
     </style>
     <link rel="stylesheet" href="{{ "/assets/style.css" | prepend: site.baseurl }}">
-    <script type="text/javascript"> 
-      //Disable right click script 
-      //visit http://www.rainbow.arch.scriptmania.com/scripts/ 
-      var message="Sorry, right-click has been disabled"; 
-      /////////////////////////////////// 
-      function clickIE() {if (document.all) {(message);return false;}} 
-      function clickNS(e) {if 
-        (document.layers||(document.getElementById&&!document.all)) { 
-        if (e.which==2||e.which==3) {(message);return false;}}} 
-      if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;} 
-      else {document.onmouseup=clickNS;document.oncontextmenu=clickIE;} 
-      document.oncontextmenu=new Function("return false") 
-    </script> 
+    <script type="text/javascript">
+      //Disable right click script
+      //visit http://www.rainbow.arch.scriptmania.com/scripts/
+      var message="Sorry, right-click has been disabled";
+      ///////////////////////////////////
+      function clickIE() {if (document.all) {(message);return false;}}
+      function clickNS(e) {if
+        (document.layers||(document.getElementById&&!document.all)) {
+        if (e.which==2||e.which==3) {(message);return false;}}}
+      if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+      else {document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+      document.oncontextmenu=new Function("return false")
+    </script>
   </head>
   <body>
     {%- include header.html -%}
@@ -46,7 +46,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         const lazyImages = document.querySelectorAll('img[data-src]');
-        
+
         if ("IntersectionObserver" in window) {
           const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
@@ -69,5 +69,16 @@
         }
       });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-GNmVYSm5ZGehdZ/xBzFHLKoEhiZLX6mD8woQvvcJ5CsdA1XlFYOn+huuO46Tjsns4C67bwEiJy9MmBvdTTFVcw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elem = document.querySelector('.photos');
+          var msnry = new Masonry(elem, {
+            itemSelector: '.photo-figure',
+            columnWidth: '.photo-figure',
+            percentPosition: true
+          });
+        });
+      </script>
   </body>
 </html>
