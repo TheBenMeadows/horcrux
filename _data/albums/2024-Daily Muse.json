@@ -24,7 +24,7 @@
     "164.jpg",
     "163.jpg",
     "162.jpg",
-    "161.jpeg",
+    "161.jpg",
     "160.jpg",
     "159.jpg",
     "158.jpg",
@@ -59,7 +59,7 @@
     "130.jpg",
     "129.jpg",
     "128.jpg",
-    "127.jpeg",
+    "127.jpg",
     "126.jpg",
     "125.jpg",
     "123-2.jpg",
@@ -90,7 +90,7 @@
     "100.jpg",
     "099.jpg",
     "098.jpg",
-    "097.jpeg",
+    "097.jpg",
     "096.jpg",
     "095.jpg",
     "094-2.jpg",
@@ -371,12 +371,12 @@
       "path": "./photos/2024/Daily Muse/162.jpg",
       "min_path": "./photos/2024/Daily Muse/162.min.jpg"
     },
-    "161.jpeg": {
+    "161.jpg": {
       "type": "photo",
       "width": 4096,
       "height": 2304,
-      "path": "./photos/2024/Daily Muse/161.jpeg",
-      "min_path": "./photos/2024/Daily Muse/161.min.jpeg"
+      "path": "./photos/2024/Daily Muse/161.jpg",
+      "min_path": "./photos/2024/Daily Muse/161.min.jpg"
     },
     "160.jpg": {
       "type": "photo",
@@ -616,12 +616,12 @@
       "path": "./photos/2024/Daily Muse/128.jpg",
       "min_path": "./photos/2024/Daily Muse/128.min.jpg"
     },
-    "127.jpeg": {
+    "127.jpg": {
       "type": "photo",
       "width": 2048,
       "height": 1632,
-      "path": "./photos/2024/Daily Muse/127.jpeg",
-      "min_path": "./photos/2024/Daily Muse/127.min.jpeg"
+      "path": "./photos/2024/Daily Muse/127.jpg",
+      "min_path": "./photos/2024/Daily Muse/127.min.jpg"
     },
     "126.jpg": {
       "type": "photo",
@@ -833,12 +833,12 @@
       "path": "./photos/2024/Daily Muse/098.jpg",
       "min_path": "./photos/2024/Daily Muse/098.min.jpg"
     },
-    "097.jpeg": {
+    "097.jpg": {
       "type": "photo",
       "width": 4096,
       "height": 4096,
-      "path": "./photos/2024/Daily Muse/097.jpeg",
-      "min_path": "./photos/2024/Daily Muse/097.min.jpeg"
+      "path": "./photos/2024/Daily Muse/097.jpg",
+      "min_path": "./photos/2024/Daily Muse/097.min.jpg"
     },
     "096.jpg": {
       "type": "photo",
