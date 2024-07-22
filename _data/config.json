@@ -2,10 +2,7 @@
   {
     "name": "Daily Muse",
     "type": "photos",
-    "parents": [
-      "2024",
-      "Daily Muse"
-    ],
+    "parents": ["2024", "Daily Muse"],
     "list": [
       {
         "type": "photo",
@@ -179,8 +176,8 @@
         "type": "photo",
         "width": 4096,
         "height": 2304,
-        "path": "./photos/2024/Daily Muse/161.jpeg",
-        "min_path": "./photos/2024/Daily Muse/161.min.jpeg"
+        "path": "./photos/2024/Daily Muse/161.jpg",
+        "min_path": "./photos/2024/Daily Muse/161.min.jpg"
       },
       {
         "type": "photo",
@@ -424,8 +421,8 @@
         "type": "photo",
         "width": 2048,
         "height": 1632,
-        "path": "./photos/2024/Daily Muse/127.jpeg",
-        "min_path": "./photos/2024/Daily Muse/127.min.jpeg"
+        "path": "./photos/2024/Daily Muse/127.jpg",
+        "min_path": "./photos/2024/Daily Muse/127.min.jpg"
       },
       {
         "type": "photo",
@@ -641,8 +638,8 @@
         "type": "photo",
         "width": 4096,
         "height": 4096,
-        "path": "./photos/2024/Daily Muse/097.jpeg",
-        "min_path": "./photos/2024/Daily Muse/097.min.jpeg"
+        "path": "./photos/2024/Daily Muse/097.jpg",
+        "min_path": "./photos/2024/Daily Muse/097.min.jpg"
       },
       {
         "type": "photo",
